@@ -1,0 +1,57 @@
+<form id="edit-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-apk_name" class="control-label col-xs-12 col-sm-2">{:__('Apk_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-apk_name" readonly="readonly"  class="form-control" name="row[apk_name]" type="text" value="{$row.apk_name}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-apk_path" class="control-label col-xs-12 col-sm-2">{:__('Apk_path')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-apk_path" readonly="readonly" class="form-control" name="row[apk_path]" type="text" value="{$row.apk_path}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-xml_path" class="control-label col-xs-12 col-sm-2">{:__('Xml_path')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-xml_path" readonly="readonly" class="form-control" name="row[xml_path]" type="text" value="{$row.xml_path}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-time" class="control-label col-xs-12 col-sm-2">{:__('Time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" readonly="readonly" name="row[time]" type="text"   value="{$row.time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-ver_no" class="control-label col-xs-12 col-sm-2">{:__('Ver_no')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ver_no" required="" class="form-control"   readonly="readonly" name="row[ver_no]" type="text" value="{$row.ver_no}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-intro" class="control-label col-xs-12 col-sm-2">{:__('Intro')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-intro" required="" class="form-control" readonly="readonly" rows="5" name="row[intro]" cols="50">{$row.intro}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-platform" class="control-label col-xs-12 col-sm-2">{:__('Platform')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {if $row.platform == 0} <span id="c-platform" class="form-control" name="row[platform]" readonly="readonly" type="number">安卓</span>
+            {elseif $row.platform == 1} <span id="c-platform" class="form-control" name="row[platform]" readonly="readonly" type="number">IOS</span>
+            {else} <span id="c-platform" class="form-control" name="row[platform]" readonly="readonly" type="number">其他</span>
+            {/if}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-others_path" class="control-label col-xs-12 col-sm-2">{:__('Others_path')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-others_path" required="" class="form-control"  readonly="readonly" name="row[others_path]" type="text" value="{$row.others_path}">
+        </div>
+    </div>
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+    </div>
+</form>

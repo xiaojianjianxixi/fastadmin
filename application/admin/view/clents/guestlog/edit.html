@@ -1,0 +1,58 @@
+<form id="edit-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-sid" class="control-label col-xs-12 col-sm-2">{:__('Sid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sid" required="" class="form-control" name="row[sid]" type="number" value="{$row.sid}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-guestname" class="control-label col-xs-12 col-sm-2">{:__('Guestname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-guestname" required="" class="form-control" name="row[guestname]" type="text" value="{$row.guestname}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-license" class="control-label col-xs-12 col-sm-2">{:__('License')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-license" required="" class="form-control" name="row[license]" type="text" value="{$row.license}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-guest_time" class="control-label col-xs-12 col-sm-2">{:__('Guest_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-guest_time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[guest_time]" type="text" value="{$row.guest_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-openid" class="control-label col-xs-12 col-sm-2">{:__('Openid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-openid" required="" class="form-control" name="row[openid]" type="text" value="{$row.openid}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-entryname" class="control-label col-xs-12 col-sm-2">{:__('Entryname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-entryname" required="" class="form-control" name="row[entryname]" type="text" value="{$row.entryname}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-time" class="control-label col-xs-12 col-sm-2">{:__('Time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[time]" type="text" value="{$row.time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-result" class="control-label col-xs-12 col-sm-2">{:__('Result')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-result" required="" class="form-control" name="row[result]" type="number" value="{$row.result}">
+        </div>
+    </div>
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

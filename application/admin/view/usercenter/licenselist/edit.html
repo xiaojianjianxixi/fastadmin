@@ -1,0 +1,225 @@
+<form id="edit-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="{url('usercenter.Licenselist/update_s')}">
+
+    <div class="form-group">
+        <label for="c-license" class="control-label col-xs-12 col-sm-2">{:__('License')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-license" required="" disabled class="form-control" name="row[license]" type="text" value="{$row.license}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-user_account" class="control-label col-xs-12 col-sm-2">{:__('User_account')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-user_account" required="" disabled class="form-control" name="row[user_account]" type="text" value="{$row.user_account}">
+        </div>
+    </div>
+<!--     <div class="form-group">
+        <label for="c-passwd" class="control-label col-xs-12 col-sm-2">{:__('Passwd')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-passwd" required="" class="form-control" name="row[passwd]" type="text" value="{$row.passwd}">
+        </div>
+    </div> -->
+    <div class="form-group">
+        <label for="c-muid" class="control-label col-xs-12 col-sm-2">{:__('Muid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-muid" required="" disabled class="form-control" name="row[muid]" type="text" value="{$row.muid}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-ip" class="control-label col-xs-12 col-sm-2">{:__('Ip')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ip" required="" disabled class="form-control" name="row[ip]" type="text" value="{$row.ip}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-time" class="control-label col-xs-12 col-sm-2">{:__('Time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-time" required="" disabled class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[time]" type="text" value="{$row.time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-salt" class="control-label col-xs-12 col-sm-2">{:__('Salt')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-salt" required="" disabled class="form-control" name="row[salt]" type="text" value="{$row.salt}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-apikey" class="control-label col-xs-12 col-sm-2">{:__('Apikey')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-apikey" required="" disabled class="form-control" name="row[apikey]" type="text" value="{$row.apikey}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-apisecret" class="control-label col-xs-12 col-sm-2">{:__('Apisecret')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-apisecret" required="" disabled class="form-control" name="row[apisecret]" type="text" value="{$row.apisecret}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-webpath" class="control-label col-xs-12 col-sm-2">{:__('Webpath')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-webpath" class="form-control" disabled name="row[webpath]" type="text" value="{$row.webpath}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-dbname" class="control-label col-xs-12 col-sm-2">{:__('Dbname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-dbname" class="form-control" disabled name="row[dbname]" type="text" value="{$row.dbname}">
+        </div>
+    </div>
+<!--     <div class="form-group">
+        <label for="c-mom_sid" class="control-label col-xs-12 col-sm-2">{:__('Mom_sid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-mom_sid" class="form-control" name="row[mom_sid]" type="number" value="{$row.mom_sid}">
+        </div>
+    </div> -->
+    <div class="form-group">
+        <label for="c-homekey" class="control-label col-xs-12 col-sm-2">{:__('Homekey')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-homekey" required="" class="form-control" name="row[homekey]" type="text" value="{$row.homekey}">
+        </div>
+    </div>
+<!--     <div class="form-group">
+        <label for="c-type" class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-type" required="" class="form-control" name="row[type]" type="number" value="{$row.type}">
+        </div>
+    </div> -->
+    <div class="form-group">
+        <label for="c-companyname" class="control-label col-xs-12 col-sm-2">{:__('Companyname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-companyname" required="" class="form-control" name="row[companyname]" type="text" value="{$row.companyname}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-effectivetime" class="control-label col-xs-12 col-sm-2">{:__('Effectivetime')}(年):</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-effectivetime" required="" name="row[effectivetime]" class="form-control"  type="text" value="{$row.effectivetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-textpsword" class="control-label col-xs-12 col-sm-2">{:__('Textpsword')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-textpsword" required="" class="form-control" name="row[textpsword]" type="text" value="{$row.textpsword}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="servertype" class="control-label col-xs-12 col-sm-2">服务类型:</label>
+        <div class="col-xs-12 col-sm-8">
+        <select name="row[servertype]"  id="servertype" class="form-control selectpicker" >
+            {switch name="$row.servertype"}
+                {case value="0"}
+                            <option value="0" selected="">请选择</option>
+                            <option value="1">单机</option>
+                            <option value="2">云端</option>
+                {/case}
+                {case value="1"}
+                            <option value="0" >请选择</option>
+                            <option value="1" selected="">单机</option>
+                            <option value="2">云端</option>
+                {/case}
+                {case value="2"}
+                            <option value="0" >请选择</option>
+                            <option value="1">单机</option>
+                            <option value="2" selected="">云端</option>
+                {/case}
+            {/switch}
+        </select>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label for="c-appID" class="control-label col-xs-12 col-sm-2">公众号APPID:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-appID" required="" class="form-control"  name="row[appID]" type="text" value="{$row.appID}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-AppSecret" class="control-label col-xs-12 col-sm-2">公众号AppSecret:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-AppSecret" required="" class="form-control" name="row[AppSecret]" type="text" value="{$row.AppSecret}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-AppSecret" class="control-label col-xs-12 col-sm-2">pamiID:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-AppSecret" required=""  disabled class="form-control" name="row[pami_ID]" type="text" value="{$row.pami_ID}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="servertype" class="control-label col-xs-12 col-sm-2">选择平台:</label>
+        <div class="col-xs-12 col-sm-8">
+        <select name="row[plat_push]"  id="plat_push" class="form-control selectpicker" >
+            {switch name="$row.plat_push"}
+                {case value="0"}
+                            <option value="0" selected="">帕米科技</option>
+                            <option value="1">第三方平台</option>
+                {/case}
+                {case value="1"}
+                            <option value="0" >帕米科技</option>
+                            <option value="1" selected="">第三方平台</option>
+                {/case}
+            {/switch}
+        </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="servertype" class="control-label col-xs-12 col-sm-2">开启第三方推送:</label>
+        <div class="col-xs-12 col-sm-8">
+        <select name="row[openpush]"  id="openpush" class="form-control selectpicker" >
+            {switch name="$row.openpush"}
+                {case value="0"}
+                            <option value="0" selected="">关闭</option>
+                            <option value="1">开启</option>
+                {/case}
+                {case value="1"}
+                            <option value="0" >关闭</option>
+                            <option value="1" selected="">开启</option>
+                {/case}
+            {/switch}
+        </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-AppSecret" class="control-label col-xs-12 col-sm-2">AESkey:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-AppSecret" required="" class="form-control" name="row[AESkey]" type="text" value="{$row.AESkey}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-AppSecret" class="control-label col-xs-12 col-sm-2">第三方推送url:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-AppSecret" required="" class="form-control" name="row[plat_push_path]" type="text" value="{$row.plat_push_path}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-AppSecret" class="control-label col-xs-12 col-sm-2">Signkey:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-AppSecret" required="" class="form-control" name="row[plat_appkey]" type="text" value="{$row.plat_appkey}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-AppSecret" class="control-label col-xs-12 col-sm-2">签名参数:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-AppSecret" required="" class="form-control" name="row[plat_content]" type="text" value="{$row.plat_content}">
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="c-remark" class="control-label col-xs-12 col-sm-2">{:__('Remark')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-remark" required="" class="form-control " rows="5" name="row[remark]" cols="50">{$row.remark}</textarea>
+        </div>
+    </div>
+      <input type="hidden" name="row[license]" value="{$row.license}">
+       <input type="hidden" name="row[id]" value="{$row.id}">
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <span type="submit" id="tijiao" class="btn btn-danger">更 新</span>
+        </div>
+    </div>
+</form>

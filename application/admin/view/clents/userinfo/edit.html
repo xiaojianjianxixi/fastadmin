@@ -1,0 +1,106 @@
+<form id="edit-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-openid" class="control-label col-xs-12 col-sm-2">{:__('Openid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-openid" required="" class="form-control" name="row[openid]" type="text" value="{$row.openid}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-nickname" class="control-label col-xs-12 col-sm-2">{:__('Nickname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-nickname" required="" class="form-control" name="row[nickname]" type="text" value="{$row.nickname}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-sex" class="control-label col-xs-12 col-sm-2">{:__('Sex')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sex" required="" class="form-control" name="row[sex]" type="text" value="{$row.sex}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-language" class="control-label col-xs-12 col-sm-2">{:__('Language')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-language" required="" class="form-control" name="row[language]" type="text" value="{$row.language}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-city" class="control-label col-xs-12 col-sm-2">{:__('City')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-city" required="" class="form-control" name="row[city]" type="text" value="{$row.city}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-province" class="control-label col-xs-12 col-sm-2">{:__('Province')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-province" required="" class="form-control" name="row[province]" type="text" value="{$row.province}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-country" class="control-label col-xs-12 col-sm-2">{:__('Country')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-country" required="" class="form-control" name="row[country]" type="text" value="{$row.country}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-headimgurl" class="control-label col-xs-12 col-sm-2">{:__('Headimgurl')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-headimgurl" required="" class="form-control" name="row[headimgurl]" type="text" value="{$row.headimgurl}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-subscribe_time" class="control-label col-xs-12 col-sm-2">{:__('Subscribe_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-subscribe_time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[subscribe_time]" type="text" value="{$row.subscribe_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-remark" class="control-label col-xs-12 col-sm-2">{:__('Remark')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-remark" required="" class="form-control" name="row[remark]" type="text" value="{$row.remark}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-groupid" class="control-label col-xs-12 col-sm-2">{:__('Groupid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-groupid" required="" class="form-control" name="row[groupid]" type="number" value="{$row.groupid}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-tagid_list" class="control-label col-xs-12 col-sm-2">{:__('Tagid_list')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tagid_list" required="" class="form-control" name="row[tagid_list]" type="text" value="{$row.tagid_list}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-bind_account" class="control-label col-xs-12 col-sm-2">{:__('Bind_account')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-bind_account" required="" class="form-control" name="row[bind_account]" type="text" value="{$row.bind_account}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-bind_license" class="control-label col-xs-12 col-sm-2">{:__('Bind_license')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-bind_license" required="" class="form-control" name="row[bind_license]" type="text" value="{$row.bind_license}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-subscribe" class="control-label col-xs-12 col-sm-2">{:__('Subscribe')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-subscribe" required="" class="form-control" name="row[subscribe]" type="number" value="{$row.subscribe}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-appID" class="control-label col-xs-12 col-sm-2">{:__('AppID')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-appID" required="" class="form-control" name="row[appID]" type="text" value="{$row.appID}">
+        </div>
+    </div>
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

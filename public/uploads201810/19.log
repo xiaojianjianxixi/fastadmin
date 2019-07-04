@@ -1,0 +1,1421 @@
+---------------------------------------------------------------
+[ 2018-10-19T10:41:59+08:00 ] ::1 ::1 POST /fastadmin/public/api/logup/logupload
+[ info ] localhost/fastadmin/public/api/logup/logupload [运行时间：0.024827s][吞吐率：40.28req/s] [内存消耗：2,784.40kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '155459',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary04gaBlLPFAePVllx',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/post/postapplog.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '1.1.1.4',
+  'foldermark' => 'openDoor',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000161s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ DB ] INIT mysql
+[ file: ] array (
+  'file' => 
+  array (
+    'name' => '滴滴出行行程报销单 (1).pdf',
+    'type' => 'application/pdf',
+    'tmp_name' => '/opt/lampp/temp/phpPEqgUf',
+    'error' => 0,
+    'size' => 154905,
+  ),
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 1.1.1.4
+[ foldermark: ] openDoor
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000303s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_license` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_license` WHERE  `license` = '20e54a3966f5a15266ac38bc44def997f3a0ea98' LIMIT 1 [ RunTime:0.000404s ]
+[ 校验license: ] array (
+  'id' => 19,
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'user_account' => 'dev@techpami.com',
+  'passwd' => '16b52125f416f79e51fb0da9fb8bad9b',
+  'muid' => '4',
+  'ip' => '192.168.1.236',
+  'time' => 1501466384,
+  'salt' => 'f9a17cb192fbebd31269a23c81b50a9a',
+  'apikey' => 'e66947095344ffc63aae9c1abc74e1da988a0b29',
+  'apisecret' => 'fd9b415eeb377db89928064c8bc469955472fd2a',
+  'webpath' => '/var/www/html/test',
+  'dbname' => 'tkdev',
+  'mom_sid' => 0,
+  'homekey' => 'dev',
+  'type' => 0,
+  'companyname' => '帕米202',
+  'effectivetime' => 0,
+  'textpsword' => 'admin123',
+  'servertype' => 0,
+  'remark' => '',
+  'appID' => 'wxe00d986a0f8efc8c',
+  'AppSecret' => 'bde6888ab33a1bd34ec66880094f9f81',
+  'pami_ID' => 'e2de6bf499b0b15f2c37d3b12f6737ab',
+  'AESkey' => '',
+  'plat_push' => 0,
+  'openpush' => 0,
+  'plat_push_path' => '',
+  'plat_content' => '',
+  'plat_appkey' => '',
+)
+[ applogPath: ] /opt/lampp/htdocs/fastadmin/public/uploads/applog/20e54a3966f5a15266ac38bc44def997f3a0ea98/openDoor/2018-10-19-10:41:59.pdf
+[ uploadlogRes: ] true
+---------------------------------------------------------------
+[ 2018-10-19T10:45:28+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.010654s][吞吐率：93.86req/s] [内存消耗：1,820.01kb] [文件加载：49]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=00eb3ab8-6f44-4de8-8684-cde4a5bd5ca6',
+  'content-length' => '433',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'uploadFace',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000113s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ file: ] array (
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] uploadFace
+---------------------------------------------------------------
+[ 2018-10-19T10:45:28+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.011552s][吞吐率：86.56req/s] [内存消耗：1,819.97kb] [文件加载：49]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=ccb89d91-b5f7-44d8-9e2d-38cce95c1201',
+  'content-length' => '437',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'CatchException',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000114s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ file: ] array (
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] CatchException
+---------------------------------------------------------------
+[ 2018-10-19T10:45:28+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.017535s][吞吐率：57.03req/s] [内存消耗：1,819.97kb] [文件加载：49]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=b76e0bdb-bc86-4c3c-837e-37d942498625',
+  'content-length' => '437',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'CatchException',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000153s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ file: ] array (
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] CatchException
+---------------------------------------------------------------
+[ 2018-10-19T10:45:28+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.015287s][吞吐率：65.42req/s] [内存消耗：1,819.97kb] [文件加载：49]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=f35143b4-c786-4cb6-8265-c7fe5b187db6',
+  'content-length' => '437',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'CatchException',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000138s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ file: ] array (
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] CatchException
+---------------------------------------------------------------
+[ 2018-10-19T10:45:28+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.019728s][吞吐率：50.69req/s] [内存消耗：1,820.01kb] [文件加载：49]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=595bd068-892d-4434-95ef-b3ca47b13fff',
+  'content-length' => '433',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'uploadFace',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000158s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ file: ] array (
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] uploadFace
+---------------------------------------------------------------
+[ 2018-10-19T10:45:28+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.024941s][吞吐率：40.09req/s] [内存消耗：1,819.95kb] [文件加载：49]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=0d8ed218-d3b2-4374-bed5-9cba00f2bed5',
+  'content-length' => '429',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'netWork',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000171s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ file: ] array (
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] netWork
+---------------------------------------------------------------
+[ 2018-10-19T10:45:28+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.016584s][吞吐率：60.30req/s] [内存消耗：1,819.95kb] [文件加载：49]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=b6996b97-95c1-4797-9c51-fa4b60a4c347',
+  'content-length' => '429',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'netWork',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000132s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ file: ] array (
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] netWork
+---------------------------------------------------------------
+[ 2018-10-19T10:45:28+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.017139s][吞吐率：58.35req/s] [内存消耗：1,819.95kb] [文件加载：49]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=7970cc5b-4396-456e-8bf0-7310ec20e96a',
+  'content-length' => '430',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'openDoor',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000172s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ file: ] array (
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] openDoor
+---------------------------------------------------------------
+[ 2018-10-19T11:08:06+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.013442s][吞吐率：74.39req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000113s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:08:06+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.013376s][吞吐率：74.76req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000113s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:08:06+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.016159s][吞吐率：61.88req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000113s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:08:06+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.030518s][吞吐率：32.77req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000585s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:08:06+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.025509s][吞吐率：39.20req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000207s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:08:06+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.039225s][吞吐率：25.49req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001398s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:08:06+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.038923s][吞吐率：25.69req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000132s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:08:06+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.014199s][吞吐率：70.43req/s] [内存消耗：1,970.64kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000105s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:10:17+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.019124s][吞吐率：52.29req/s] [内存消耗：1,970.64kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000194s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:10:17+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.018167s][吞吐率：55.04req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000520s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:10:17+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.020337s][吞吐率：49.17req/s] [内存消耗：1,970.64kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000118s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:10:17+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.020699s][吞吐率：48.31req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000109s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:10:17+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.043278s][吞吐率：23.11req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000141s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:10:17+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.047085s][吞吐率：21.24req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000136s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:10:17+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.018730s][吞吐率：53.39req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000110s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:10:17+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.020416s][吞吐率：48.98req/s] [内存消耗：1,970.78kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/x-markdown; charset=utf-8',
+  'content-length' => '181',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000104s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: license[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:14]
+---------------------------------------------------------------
+[ 2018-10-19T11:13:47+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.019263s][吞吐率：51.91req/s] [内存消耗：2,780.40kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=6645ee06-ca00-4e10-a292-498b37b9574c',
+  'content-length' => '805',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'CatchException',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000127s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ DB ] INIT mysql
+[ file: ] array (
+  'file' => 
+  array (
+    'name' => 'log_2018-10-16.txt',
+    'type' => 'text/x-markdown',
+    'tmp_name' => '/opt/lampp/temp/phppGoBpv',
+    'error' => 0,
+    'size' => 181,
+  ),
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] CatchException
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000246s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_license` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_license` WHERE  `license` = '20e54a3966f5a15266ac38bc44def997f3a0ea98' LIMIT 1 [ RunTime:0.000346s ]
+[ 校验license: ] array (
+  'id' => 19,
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'user_account' => 'dev@techpami.com',
+  'passwd' => '16b52125f416f79e51fb0da9fb8bad9b',
+  'muid' => '4',
+  'ip' => '192.168.1.236',
+  'time' => 1501466384,
+  'salt' => 'f9a17cb192fbebd31269a23c81b50a9a',
+  'apikey' => 'e66947095344ffc63aae9c1abc74e1da988a0b29',
+  'apisecret' => 'fd9b415eeb377db89928064c8bc469955472fd2a',
+  'webpath' => '/var/www/html/test',
+  'dbname' => 'tkdev',
+  'mom_sid' => 0,
+  'homekey' => 'dev',
+  'type' => 0,
+  'companyname' => '帕米202',
+  'effectivetime' => 0,
+  'textpsword' => 'admin123',
+  'servertype' => 0,
+  'remark' => '',
+  'appID' => 'wxe00d986a0f8efc8c',
+  'AppSecret' => 'bde6888ab33a1bd34ec66880094f9f81',
+  'pami_ID' => 'e2de6bf499b0b15f2c37d3b12f6737ab',
+  'AESkey' => '',
+  'plat_push' => 0,
+  'openpush' => 0,
+  'plat_push_path' => '',
+  'plat_content' => '',
+  'plat_appkey' => '',
+)
+[ applogPath: ] /opt/lampp/htdocs/fastadmin/public/uploads/applog/20e54a3966f5a15266ac38bc44def997f3a0ea98/CatchException/2018-10-19-11:13:47.txt
+[ uploadlogRes: ] true
+---------------------------------------------------------------
+[ 2018-10-19T11:13:47+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.026956s][吞吐率：37.10req/s] [内存消耗：2,780.40kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=522d9c60-654a-48d8-9fc6-382705689cd1',
+  'content-length' => '805',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'CatchException',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000111s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ DB ] INIT mysql
+[ file: ] array (
+  'file' => 
+  array (
+    'name' => 'log_2018-10-17.txt',
+    'type' => 'text/x-markdown',
+    'tmp_name' => '/opt/lampp/temp/php5pIBqv',
+    'error' => 0,
+    'size' => 181,
+  ),
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] CatchException
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_license` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_license` WHERE  `license` = '20e54a3966f5a15266ac38bc44def997f3a0ea98' LIMIT 1 [ RunTime:0.000323s ]
+[ 校验license: ] array (
+  'id' => 19,
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'user_account' => 'dev@techpami.com',
+  'passwd' => '16b52125f416f79e51fb0da9fb8bad9b',
+  'muid' => '4',
+  'ip' => '192.168.1.236',
+  'time' => 1501466384,
+  'salt' => 'f9a17cb192fbebd31269a23c81b50a9a',
+  'apikey' => 'e66947095344ffc63aae9c1abc74e1da988a0b29',
+  'apisecret' => 'fd9b415eeb377db89928064c8bc469955472fd2a',
+  'webpath' => '/var/www/html/test',
+  'dbname' => 'tkdev',
+  'mom_sid' => 0,
+  'homekey' => 'dev',
+  'type' => 0,
+  'companyname' => '帕米202',
+  'effectivetime' => 0,
+  'textpsword' => 'admin123',
+  'servertype' => 0,
+  'remark' => '',
+  'appID' => 'wxe00d986a0f8efc8c',
+  'AppSecret' => 'bde6888ab33a1bd34ec66880094f9f81',
+  'pami_ID' => 'e2de6bf499b0b15f2c37d3b12f6737ab',
+  'AESkey' => '',
+  'plat_push' => 0,
+  'openpush' => 0,
+  'plat_push_path' => '',
+  'plat_content' => '',
+  'plat_appkey' => '',
+)
+[ applogPath: ] /opt/lampp/htdocs/fastadmin/public/uploads/applog/20e54a3966f5a15266ac38bc44def997f3a0ea98/CatchException/2018-10-19-11:13:47.txt
+[ uploadlogRes: ] true
+---------------------------------------------------------------
+[ 2018-10-19T11:13:47+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.020364s][吞吐率：49.11req/s] [内存消耗：2,779.52kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=a706d53b-815f-4300-87f7-710a9be945c0',
+  'content-length' => '798',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'openDoor',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000124s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ DB ] INIT mysql
+[ file: ] array (
+  'file' => 
+  array (
+    'name' => 'log_2018-10-17.txt',
+    'type' => 'text/x-markdown',
+    'tmp_name' => '/opt/lampp/temp/phprSLHsv',
+    'error' => 0,
+    'size' => 181,
+  ),
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] openDoor
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000780s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_license` [ RunTime:0.001353s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_license` WHERE  `license` = '20e54a3966f5a15266ac38bc44def997f3a0ea98' LIMIT 1 [ RunTime:0.000348s ]
+[ 校验license: ] array (
+  'id' => 19,
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'user_account' => 'dev@techpami.com',
+  'passwd' => '16b52125f416f79e51fb0da9fb8bad9b',
+  'muid' => '4',
+  'ip' => '192.168.1.236',
+  'time' => 1501466384,
+  'salt' => 'f9a17cb192fbebd31269a23c81b50a9a',
+  'apikey' => 'e66947095344ffc63aae9c1abc74e1da988a0b29',
+  'apisecret' => 'fd9b415eeb377db89928064c8bc469955472fd2a',
+  'webpath' => '/var/www/html/test',
+  'dbname' => 'tkdev',
+  'mom_sid' => 0,
+  'homekey' => 'dev',
+  'type' => 0,
+  'companyname' => '帕米202',
+  'effectivetime' => 0,
+  'textpsword' => 'admin123',
+  'servertype' => 0,
+  'remark' => '',
+  'appID' => 'wxe00d986a0f8efc8c',
+  'AppSecret' => 'bde6888ab33a1bd34ec66880094f9f81',
+  'pami_ID' => 'e2de6bf499b0b15f2c37d3b12f6737ab',
+  'AESkey' => '',
+  'plat_push' => 0,
+  'openpush' => 0,
+  'plat_push_path' => '',
+  'plat_content' => '',
+  'plat_appkey' => '',
+)
+[ applogPath: ] /opt/lampp/htdocs/fastadmin/public/uploads/applog/20e54a3966f5a15266ac38bc44def997f3a0ea98/openDoor/2018-10-19-11:13:47.txt
+[ uploadlogRes: ] true
+---------------------------------------------------------------
+[ 2018-10-19T11:13:47+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.016957s][吞吐率：58.97req/s] [内存消耗：2,779.52kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=5286c68f-88ca-433e-82f6-8b0159facaa9',
+  'content-length' => '798',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'openDoor',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000108s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ DB ] INIT mysql
+[ file: ] array (
+  'file' => 
+  array (
+    'name' => 'log_2018-10-16.txt',
+    'type' => 'text/x-markdown',
+    'tmp_name' => '/opt/lampp/temp/phparqlhr',
+    'error' => 0,
+    'size' => 181,
+  ),
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] openDoor
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000254s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_license` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_license` WHERE  `license` = '20e54a3966f5a15266ac38bc44def997f3a0ea98' LIMIT 1 [ RunTime:0.000329s ]
+[ 校验license: ] array (
+  'id' => 19,
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'user_account' => 'dev@techpami.com',
+  'passwd' => '16b52125f416f79e51fb0da9fb8bad9b',
+  'muid' => '4',
+  'ip' => '192.168.1.236',
+  'time' => 1501466384,
+  'salt' => 'f9a17cb192fbebd31269a23c81b50a9a',
+  'apikey' => 'e66947095344ffc63aae9c1abc74e1da988a0b29',
+  'apisecret' => 'fd9b415eeb377db89928064c8bc469955472fd2a',
+  'webpath' => '/var/www/html/test',
+  'dbname' => 'tkdev',
+  'mom_sid' => 0,
+  'homekey' => 'dev',
+  'type' => 0,
+  'companyname' => '帕米202',
+  'effectivetime' => 0,
+  'textpsword' => 'admin123',
+  'servertype' => 0,
+  'remark' => '',
+  'appID' => 'wxe00d986a0f8efc8c',
+  'AppSecret' => 'bde6888ab33a1bd34ec66880094f9f81',
+  'pami_ID' => 'e2de6bf499b0b15f2c37d3b12f6737ab',
+  'AESkey' => '',
+  'plat_push' => 0,
+  'openpush' => 0,
+  'plat_push_path' => '',
+  'plat_content' => '',
+  'plat_appkey' => '',
+)
+[ applogPath: ] /opt/lampp/htdocs/fastadmin/public/uploads/applog/20e54a3966f5a15266ac38bc44def997f3a0ea98/openDoor/2018-10-19-11:13:47.txt
+[ uploadlogRes: ] true
+---------------------------------------------------------------
+[ 2018-10-19T11:13:47+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.049223s][吞吐率：20.32req/s] [内存消耗：2,779.46kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=01faa1fe-8895-4e0b-b8ac-6a10e58867b1',
+  'content-length' => '801',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'uploadFace',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000124s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ DB ] INIT mysql
+[ file: ] array (
+  'file' => 
+  array (
+    'name' => 'log_2018-10-17.txt',
+    'type' => 'text/x-markdown',
+    'tmp_name' => '/opt/lampp/temp/phpsSJuuv',
+    'error' => 0,
+    'size' => 181,
+  ),
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] uploadFace
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000232s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_license` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_license` WHERE  `license` = '20e54a3966f5a15266ac38bc44def997f3a0ea98' LIMIT 1 [ RunTime:0.000336s ]
+[ 校验license: ] array (
+  'id' => 19,
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'user_account' => 'dev@techpami.com',
+  'passwd' => '16b52125f416f79e51fb0da9fb8bad9b',
+  'muid' => '4',
+  'ip' => '192.168.1.236',
+  'time' => 1501466384,
+  'salt' => 'f9a17cb192fbebd31269a23c81b50a9a',
+  'apikey' => 'e66947095344ffc63aae9c1abc74e1da988a0b29',
+  'apisecret' => 'fd9b415eeb377db89928064c8bc469955472fd2a',
+  'webpath' => '/var/www/html/test',
+  'dbname' => 'tkdev',
+  'mom_sid' => 0,
+  'homekey' => 'dev',
+  'type' => 0,
+  'companyname' => '帕米202',
+  'effectivetime' => 0,
+  'textpsword' => 'admin123',
+  'servertype' => 0,
+  'remark' => '',
+  'appID' => 'wxe00d986a0f8efc8c',
+  'AppSecret' => 'bde6888ab33a1bd34ec66880094f9f81',
+  'pami_ID' => 'e2de6bf499b0b15f2c37d3b12f6737ab',
+  'AESkey' => '',
+  'plat_push' => 0,
+  'openpush' => 0,
+  'plat_push_path' => '',
+  'plat_content' => '',
+  'plat_appkey' => '',
+)
+[ applogPath: ] /opt/lampp/htdocs/fastadmin/public/uploads/applog/20e54a3966f5a15266ac38bc44def997f3a0ea98/uploadFace/2018-10-19-11:13:47.txt
+[ uploadlogRes: ] true
+---------------------------------------------------------------
+[ 2018-10-19T11:13:47+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.046718s][吞吐率：21.41req/s] [内存消耗：2,779.51kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=4c8ff038-48be-45fe-ae15-c6ef74e7f5db',
+  'content-length' => '797',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'netWork',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000120s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ DB ] INIT mysql
+[ file: ] array (
+  'file' => 
+  array (
+    'name' => 'log_2018-10-16.txt',
+    'type' => 'text/x-markdown',
+    'tmp_name' => '/opt/lampp/temp/phpTF50uv',
+    'error' => 0,
+    'size' => 181,
+  ),
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] netWork
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000273s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_license` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_license` WHERE  `license` = '20e54a3966f5a15266ac38bc44def997f3a0ea98' LIMIT 1 [ RunTime:0.000343s ]
+[ 校验license: ] array (
+  'id' => 19,
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'user_account' => 'dev@techpami.com',
+  'passwd' => '16b52125f416f79e51fb0da9fb8bad9b',
+  'muid' => '4',
+  'ip' => '192.168.1.236',
+  'time' => 1501466384,
+  'salt' => 'f9a17cb192fbebd31269a23c81b50a9a',
+  'apikey' => 'e66947095344ffc63aae9c1abc74e1da988a0b29',
+  'apisecret' => 'fd9b415eeb377db89928064c8bc469955472fd2a',
+  'webpath' => '/var/www/html/test',
+  'dbname' => 'tkdev',
+  'mom_sid' => 0,
+  'homekey' => 'dev',
+  'type' => 0,
+  'companyname' => '帕米202',
+  'effectivetime' => 0,
+  'textpsword' => 'admin123',
+  'servertype' => 0,
+  'remark' => '',
+  'appID' => 'wxe00d986a0f8efc8c',
+  'AppSecret' => 'bde6888ab33a1bd34ec66880094f9f81',
+  'pami_ID' => 'e2de6bf499b0b15f2c37d3b12f6737ab',
+  'AESkey' => '',
+  'plat_push' => 0,
+  'openpush' => 0,
+  'plat_push_path' => '',
+  'plat_content' => '',
+  'plat_appkey' => '',
+)
+[ applogPath: ] /opt/lampp/htdocs/fastadmin/public/uploads/applog/20e54a3966f5a15266ac38bc44def997f3a0ea98/netWork/2018-10-19-11:13:47.txt
+[ uploadlogRes: ] true
+---------------------------------------------------------------
+[ 2018-10-19T11:13:47+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.036487s][吞吐率：27.41req/s] [内存消耗：2,779.51kb] [文件加载：55]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=1a728682-17c5-415d-9453-6d69212df32d',
+  'content-length' => '797',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'netWork',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000113s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ DB ] INIT mysql
+[ file: ] array (
+  'file' => 
+  array (
+    'name' => 'log_2018-10-17.txt',
+    'type' => 'text/x-markdown',
+    'tmp_name' => '/opt/lampp/temp/phpKSRHxv',
+    'error' => 0,
+    'size' => 181,
+  ),
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] netWork
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_license` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_license` WHERE  `license` = '20e54a3966f5a15266ac38bc44def997f3a0ea98' LIMIT 1 [ RunTime:0.000282s ]
+[ 校验license: ] array (
+  'id' => 19,
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'user_account' => 'dev@techpami.com',
+  'passwd' => '16b52125f416f79e51fb0da9fb8bad9b',
+  'muid' => '4',
+  'ip' => '192.168.1.236',
+  'time' => 1501466384,
+  'salt' => 'f9a17cb192fbebd31269a23c81b50a9a',
+  'apikey' => 'e66947095344ffc63aae9c1abc74e1da988a0b29',
+  'apisecret' => 'fd9b415eeb377db89928064c8bc469955472fd2a',
+  'webpath' => '/var/www/html/test',
+  'dbname' => 'tkdev',
+  'mom_sid' => 0,
+  'homekey' => 'dev',
+  'type' => 0,
+  'companyname' => '帕米202',
+  'effectivetime' => 0,
+  'textpsword' => 'admin123',
+  'servertype' => 0,
+  'remark' => '',
+  'appID' => 'wxe00d986a0f8efc8c',
+  'AppSecret' => 'bde6888ab33a1bd34ec66880094f9f81',
+  'pami_ID' => 'e2de6bf499b0b15f2c37d3b12f6737ab',
+  'AESkey' => '',
+  'plat_push' => 0,
+  'openpush' => 0,
+  'plat_push_path' => '',
+  'plat_content' => '',
+  'plat_appkey' => '',
+)
+[ applogPath: ] /opt/lampp/htdocs/fastadmin/public/uploads/applog/20e54a3966f5a15266ac38bc44def997f3a0ea98/netWork/2018-10-19-11:13:47.txt
+[ uploadlogRes: ] true
+---------------------------------------------------------------
+[ 2018-10-19T11:13:47+08:00 ] 192.168.1.115 192.168.1.77 POST /fastadmin/public/api/logup/logupload
+[ info ] 192.168.1.115/fastadmin/public/api/logup/logupload [运行时间：0.051951s][吞吐率：19.25req/s] [内存消耗：2,930.70kb] [文件加载：61]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'logup',
+    2 => 'logupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=6ee2466b-5376-44d1-abdc-9da6ea0863ce',
+  'content-length' => '801',
+  'host' => '192.168.1.115',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.2.0',
+)
+[ info ] [ PARAM ] array (
+  'foldermark' => 'uploadFace',
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'version' => '2.0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000118s ]
+[ info ] [ RUN ] app\api\controller\Logup->logupload[ /opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ DB ] INIT mysql
+[ file: ] array (
+  'file' => 
+  array (
+    'name' => 'log_2018-10-16.txt',
+    'type' => 'text/x-markdown',
+    'tmp_name' => '/opt/lampp/temp/phpNqQuuv',
+    'error' => 0,
+    'size' => 181,
+  ),
+)
+[ license: ] 20e54a3966f5a15266ac38bc44def997f3a0ea98
+[ version: ] 2.0
+[ foldermark: ] uploadFace
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000153s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_license` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_license` WHERE  `license` = '20e54a3966f5a15266ac38bc44def997f3a0ea98' LIMIT 1 [ RunTime:0.000318s ]
+[ 校验license: ] array (
+  'id' => 19,
+  'license' => '20e54a3966f5a15266ac38bc44def997f3a0ea98',
+  'user_account' => 'dev@techpami.com',
+  'passwd' => '16b52125f416f79e51fb0da9fb8bad9b',
+  'muid' => '4',
+  'ip' => '192.168.1.236',
+  'time' => 1501466384,
+  'salt' => 'f9a17cb192fbebd31269a23c81b50a9a',
+  'apikey' => 'e66947095344ffc63aae9c1abc74e1da988a0b29',
+  'apisecret' => 'fd9b415eeb377db89928064c8bc469955472fd2a',
+  'webpath' => '/var/www/html/test',
+  'dbname' => 'tkdev',
+  'mom_sid' => 0,
+  'homekey' => 'dev',
+  'type' => 0,
+  'companyname' => '帕米202',
+  'effectivetime' => 0,
+  'textpsword' => 'admin123',
+  'servertype' => 0,
+  'remark' => '',
+  'appID' => 'wxe00d986a0f8efc8c',
+  'AppSecret' => 'bde6888ab33a1bd34ec66880094f9f81',
+  'pami_ID' => 'e2de6bf499b0b15f2c37d3b12f6737ab',
+  'AESkey' => '',
+  'plat_push' => 0,
+  'openpush' => 0,
+  'plat_push_path' => '',
+  'plat_content' => '',
+  'plat_appkey' => '',
+)
+[ error ] [2]mkdir(): 文件已存在[/opt/lampp/htdocs/fastadmin/application/api/controller/Logup.php:102]

@@ -1,0 +1,88 @@
+<div class="row animated fadeInRight">
+  <div class="col-md-4">
+      <div class="box box-success">
+          <div class="panel-heading">
+              单列表单（label和input采用两栏布局,input伸缩占据剩余空间）
+          </div>
+          <div class="panel-body">
+              <form id="update-form" class="pami-single-form" role="form" data-toggle="validator" method="POST" action="{:url('general.profile/update')}">
+                  <div class="form-group">
+                      <label for="username" class="control-label">输入内容:</label>
+                      <div class="right">
+                        <input type="text" class="form-control" name="row[username]" value="{$admin.username}" disabled />
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="email" class="control-label">输入内容:</label>
+                      <div class="right">
+                        <input type="text" class="form-control" name="row[email]" value="{$admin.email}" />
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="nickname" class="control-label">输入内容:</label>
+                      <div class="right">
+                        <input type="text" class="form-control" name="row[nickname]" value="{$admin.nickname}" required="required" />
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="password" class="control-label">输入内容:</label>
+                      <div class="right">
+                        <input type="text" class="form-control" placeholder="{:__('Leave password blank if dont want to change')}" name="row[password]" value=""/>
+                      </div>
+                  </div>
+                  <div class="form-group center">
+                      <button type="submit" class="btn btn-success">{:__('Submit')}</button>
+                      <button type="reset" class="btn btn-default">{:__('Reset')}</button>
+                  </div>
+
+              </form>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-4">
+    <div class="box box-success">
+        <div class="panel-heading">
+            双列表单（label和input采用两栏布局,input伸缩占据剩余空间）
+        </div>
+        <div class="panel-body">
+            <form id="update-form" class="pami-single-form" role="form" data-toggle="validator" method="POST" action="{:url('general.profile/update')}">
+              <div class="col-md-6">
+                <div class="form-group">
+                    <label for="username" class="control-label">输入内容:</label>
+                    <div class="right">
+                      <input type="text" class="form-control" name="row[username]" value="{$admin.username}" disabled />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="control-label">输入内容:</label>
+                    <div class="right">
+                      <input type="text" class="form-control" name="row[email]" value="{$admin.email}" />
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                    <label for="nickname" class="control-label">输入内容:</label>
+                    <div class="right">
+                      <input type="text" class="form-control" name="row[nickname]" value="{$admin.nickname}" required="required" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="control-label">输入内容:</label>
+                    <div class="right">
+                      <input type="text" class="form-control" placeholder="{:__('Leave password blank if dont want to change')}" name="row[password]" value=""/>
+                    </div>
+                </div>
+              </div>
+
+
+                <div class="form-group text-right">
+                    <button type="submit" class="btn btn-success">{:__('Submit')}</button>
+                    <button type="reset" class="btn btn-default">{:__('Reset')}</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+  </div>
+</div>

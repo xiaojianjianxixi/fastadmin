@@ -1,0 +1,321 @@
+<style>
+       .red-point{
+          position: relative;
+        }
+
+        .red-point::before{
+          content: " ";
+          border: 3px solid red;/*设置红色*/
+          border-radius:3px;/*设置圆角*/
+          position: absolute;
+          z-index: 1000;
+          right: 0%;
+          margin-right: -5px;
+          margin-top: -5px;
+        }
+        .notice {
+                position: relative;
+        }
+        .notice:after {
+                content: " ";
+                position: absolute;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                top: 3px;
+                right: 3px;
+                background: #e74c3c;
+        }
+</style>
+<div class="form-group">
+    <div class="panel panel-default panel-intro">
+        <div class="panel-heading">
+            <div class="panel-lead"><em>微信公众号模板配置</em>请务必严格遵循微信公众号的格式配置参数</div>
+            <ul class="nav nav-tabs">
+                {if $unbundling_model_id == ''}<li class="active notice">{else/}<li class="active">{/if} <a href="#basic" data-toggle="tab"  aria-expanded="true">解除绑定通知</a></li>
+                {if $Customer_model_id == ''}<li class="notice">{else/}<li class="">{/if}<a href="#basic1" data-toggle="tab" aria-expanded="false">客户到访通知</a></li>
+                {if $attention_model_id == ''}<li class="notice">{else/}<li class="">{/if}<a href="#basic2" data-toggle="tab" aria-expanded="false">关注成功通知</a></li>
+                {if $Sign_model_id == ''}<li class="notice">{else/}<li class="">{/if}<a href="#basic3" data-toggle="tab" aria-expanded="false">签到提醒</a></li>
+                {if $Operation_model_id == ''}<li class="notice">{else/}<li class="">{/if}<a href="#basic4" data-toggle="tab" aria-expanded="false">操作成功通知</a></li>
+                {if $binding_model_id == ''}<li class="notice">{else/}<li class="">{/if}<a href="#basic5" data-toggle="tab" aria-expanded="false">绑定成功提醒</a></li>
+            </ul>
+        </div>
+
+        <div class="panel-body">
+            <div id="myTabContent" class="tab-content">
+
+                <div class="tab-pane fade active in" id="basic">
+                    <div class="widget-body no-padding">
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">模板ID:</label>
+                                    <div class="right">
+                                    <input type="text" {if $unbundling_model_id == ''}style="border-color:#e74c3c" placeholder="请输入模板ID" {/if} class="form-control emptyRed" id="unbundling_model_id"  value="{$unbundling_model_id}" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">标题:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="unbundling_title"  readonly    value="解除绑定通知" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">行业:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="unbundling_industry" readonly   value="IT科技 - 互联网|电子商务" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">详细内容:</label>
+                                    <textarea  class="form-control textarea" readonly id="unbundling_detailinto" maxlength="200" cols="30" rows="10">
+{{first.DATA}}
+解绑号码：{{keyword1.DATA}}
+解绑时间：{{keyword2.DATA}}
+{{remark.DATA}}
+                                    </textarea>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">内容示例:</label>
+                                    <textarea name="row[remark]" class="form-control textarea" readonly id="unbundling_exampe" maxlength="200" cols="30" rows="10">
+您的服务已经解除实名绑定
+解绑号码：1234567
+解绑时间：2016年11月17日
+感谢您的使用
+                                    </textarea>
+                            </div>
+                            <input type="hidden"  id="license" name="license" value="{$license}">
+                            <input type="hidden"  id="unbundling" name="unbundling" value="unbundling">
+                            <button type="submit" id="unbundling_submit" class="btn btn-success">提交</button>
+                    </div>
+                   
+                </div>
+
+                <div class="tab-pane fade " id="basic1">
+                    <div class="widget-body no-padding">
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">模板ID:</label>
+                                    <div class="right">
+                                    <input type="text" {if $Customer_model_id == ''}style="border-color:#e74c3c" placeholder="请输入模板ID" {/if} class="form-control" id="Customer_model_id" name="Customer_model_id"  value="{$Customer_model_id}" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">标题:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="Customer_title" readonly name="Customer_title"  value="客户到访通知" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">行业:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="Customer_industry" readonly name="Customer_industry"  value="IT科技 - 互联网|电子商务" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">详细内容:</label>
+                                    <textarea name="Customer_detailinto" class="form-control textarea" readonly id="Customer_detailinto" maxlength="200" cols="30" rows="10">
+{{first.DATA}}
+客户姓名：{{keyword1.DATA}}
+客户手机：{{keyword2.DATA}}
+到访时间：{{keyword3.DATA}}
+{{remark.DATA}}
+                                    </textarea>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">内容示例:</label>
+                                    <textarea name="Customer_exampe" class="form-control textarea"  readonly id="Customer_exampe" maxlength="200" cols="30" rows="10">                                           
+亲爱的XXX先生/女士您好，您推荐的客户已到访XXXX楼盘
+客户姓名：张三
+客户手机：13012345678
+到访时间：2014年7月21日 18:36:00
+感谢您的支持，请继续推荐更多客户吧。
+                                     </textarea>
+                            </div>
+                            <input type="hidden"  id="license" name="license" value="{$license}">
+                            <input type="hidden" name="Customer" id="Customer" value="Customer">
+                            <span type="submit" id="Customer_submit" class="btn btn-success">提交</span>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="basic2">
+                    <div class="widget-body no-padding">
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">模板ID:</label>
+                                    <div class="right">
+                                    <input type="text" {if $attention_model_id == ''}style="border-color:#e74c3c" placeholder="请输入模板ID" {/if} class="form-control" id="attention_model_id" name="attention_model_id"  value="{$attention_model_id}" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">标题:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="attention_title"  readonly name="attention_title"  value="关注成功通知
+                                    " />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">行业:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="attention_industry" readonly name="attention_industry"  value="IT科技 - 互联网|电子商务" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">详细内容:</label>
+                                    <textarea name="attention_detailinto" class="form-control textarea" readonly id="attention_detailinto" maxlength="200" cols="30" rows="10">
+{{first.DATA}}
+会员昵称：{{keyword1.DATA}}
+关注时间：{{keyword2.DATA}}
+{{remark.DATA}}
+                                    </textarea>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">内容示例:</label>
+                                    <textarea name="attention_exampe" class="form-control textarea" readonly id="attention_exampe" maxlength="200" cols="30" rows="10">
+恭喜您通过分享链接成功锁定一位会员！
+会员昵称：admin
+关注时间：2016-06-23 16:15:33
+记得提醒他关注平台。
+                                    </textarea>
+                            </div>
+                            <input type="hidden"  id="license" name="license" value="{$license}">
+                            <input type="hidden" name="attention" value="attention" id="attention">
+                            <span type="submit" id="attention_submit" class="btn btn-success">提交</span>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="basic3">
+                    <div class="widget-body no-padding">
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">模板ID:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" {if $Sign_model_id == ''}style="border-color:#e74c3c" placeholder="请输入模板ID" {/if} id="Sign_model_id" name="Sign_model_id"  value="{$Sign_model_id}" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">标题:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="Sign_title"  readonly name="Sign_title"  value="签到提醒" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">行业:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="Sign_industry" readonly name="Sign_industry"  value="IT科技 - 互联网|电子商务" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">详细内容:</label>
+                                    <textarea name="Sign_detailinto" class="form-control textarea" readonly id="Sign_detailinto" maxlength="200" cols="30" rows="10">
+{{first.DATA}}
+姓名：{{keyword1.DATA}}
+签到地点：{{keyword2.DATA}}
+签到时间：{{keyword3.DATA}}
+{{remark.DATA}}
+                                    </textarea>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">内容示例:</label>
+                                    <textarea name="Sign_exampe" class="form-control textarea" readonly id="Sign_exampe" maxlength="200" cols="30" rows="10">
+签到提醒
+姓名：张三
+签到地点：五爱小学
+签到时间：2014年5月28日
+感谢你的使用
+                                    </textarea>
+                            </div>
+                            <input type="hidden"  id="license" name="license" value="{$license}">
+                            <input type="hidden" name="Sign" id="Sign"  value="Sign">
+                            <span type="submit" id="Sign_submit" class="btn btn-success">提交</span>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="basic4">
+                    <div class="widget-body no-padding">
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">模板ID:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" {if $Operation_model_id == ''}style="border-color:#e74c3c" placeholder="请输入模板ID" {/if} id="Operation_model_id" name="Operation_model_id"  value="{$Operation_model_id}" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">标题:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="Operation_title" readonly name="Operation_title"  value="操作成功通知" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">行业:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="Operation_industry" readonly name="Operation_industry"  value="IT科技 - 互联网|电子商务" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">详细内容:</label>
+                                    <textarea name="Operation_detailinto" class="form-control textarea" readonly id="Operation_detailinto" maxlength="200" cols="30" rows="10">
+
+{{first.DATA}}
+内容：{{keyword1.DATA}}
+创建时间：{{keyword2.DATA}}
+{{remark.DATA}}
+                                    </textarea>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">内容示例:</label>
+                                    <textarea name="Operation_exampe" class="form-control textarea" readonly id="Operation_exampe" maxlength="200" cols="30" rows="10">
+
+该步操作已成功
+内容：您的某某操作已在系统成功操作
+创建时间：2015年8月25号
+谢谢使用
+                                    </textarea>
+                            </div>
+                            <input type="hidden"  id="license" name="license" value="{$license}">
+                            <input type="hidden" name="Operation" id="Operation" value="Operation">
+                            <span type="submit" id="Operation_submit" class="btn btn-success">提交</span>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="basic5">
+                    <div class="widget-body no-padding">
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">模板ID:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" {if $binding_model_id == ''}style="border-color:#e74c3c" placeholder="请输入模板ID" {/if} id="binding_model_id" name="binding_model_id"  value="{$binding_model_id}" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">标题:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="binding_title" readonly name="binding_title"  value="绑定成功提醒" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="companyname" class="control-label">行业:</label>
+                                    <div class="right">
+                                    <input type="text" class="form-control" id="binding_industry" readonly name="binding_industry"  value="IT科技 - 互联网|电子商务" />
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">详细内容:</label>
+                                    <textarea name="binding_detailinto" class="form-control textarea" readonly id="binding_detailinto" maxlength="200" cols="30" rows="10">
+{{first.DATA}}
+产品名称：{{keyword1.DATA}}
+绑定时间：{{keyword2.DATA}}
+{{remark.DATA}}
+                                    </textarea>
+                            </div>
+                            <div class="form-group">
+                                    <label for="detail">内容示例:</label>
+                                    <textarea name="binding_exampe" class="form-control textarea" readonly id="binding_exampe" maxlength="200" cols="30" rows="10">
+您好，您已成功绑定智能产品
+产品名称：智能豆浆机
+绑定时间：2014年7月21日 18:36
+感谢您的使用，如有疑问，请联系客服人员
+                                    </textarea>
+                            </div>
+                            <input type="hidden"  id="license" name="license" value="{$license}">
+                            <input name="binding" type="hidden" id="binding" value="binding">
+                            <span type="submit" id="binding_submit" class="btn btn-success">提交</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+

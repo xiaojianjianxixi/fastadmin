@@ -1,0 +1,206 @@
+<style>
+    .pami-single-form .form-group>label {
+        float: left;
+        min-width: 10%;
+        line-height: 30px;
+        margin: 0 5px 0 0;
+    }
+
+    .pami-single-form .form-group .right {
+        display: block;
+        overflow: hidden;
+    }
+
+    .pami-single-form .center {
+        text-align: center;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .email-name,
+    .email-suffix {
+        display: inline-block;
+    }
+
+    .email-name {
+        width: 68%;
+    }
+
+    .email-suffix {
+        width: 30%;
+    }
+
+    .text-justify {
+        text-align: justify;
+        text-align-last: justify;
+    }
+
+    .text-justify:after {
+        display: inline-block;
+        width: 100%;
+        height: 0;
+        opacity: 0;
+    }
+
+    .pami-single-form .form-group>label {
+        min-width: 120px;
+    }
+
+    .textarea {
+        resize: none;
+    }
+    .lala{
+        margin: 10px 0 10px 0;
+    }
+</style>
+<div class="row animated fadeInRight">
+    <div class="col-md-5">
+        <div class="box box-success">
+            <div class="panel-heading">
+                激活License
+            </div>
+            <div class="panel-body">
+                <form id="update-form" class="pami-single-form" role="form" data-toggle="validator" method="POST" action="">
+                    <div class="form-group">
+                        <label for="email" class="control-label">{:__('Username')}:</label>
+                        <div class="right text-justify">
+                            <input type="text" class="form-control email-name" id="email" name="row[email]" placeholder="输入用户名" value="" />
+                            <input type="text" class="form-control email-suffix" value="@techpami.com" disabled>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="companyname" class="control-label">公司名称:</label>
+                        <div class="right">
+                            <input type="text" class="form-control" id="companyname" name="row[companyname]" value="" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="effectivetime" class="control-label">授权时长(年):</label>
+                        <div class="right">
+                            <select name="row[effectivetime]" id="effectivetime" class="form-control selectpicker">
+                                <option value="0" selected="">请选择</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                                <option value="15">20</option>
+                                <option value="50">永久</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="servertype" class="control-label">服务类型:</label>
+                        <div class="right">
+                            <select name="row[servertype]" id="servertype" class="form-control selectpicker">
+                                <option value="0" selected="">请选择</option>
+                                <option value="1">单机</option>
+                                <option value="2">云端</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Homekey" class="control-label">Homekey:</label>
+                        <div class="right">
+                            <input type="text" class="form-control" id="Homekey" name="row[Homekey]" value="" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Homekey" class="control-label">APPID:</label>
+                        <div class="right">
+                            <input type="text" class="form-control" id="APPID" name="row[APPID]" value="" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Homekey" class="control-label">APPSECRET:</label>
+                        <div class="right">
+                            <input type="text" class="form-control" id="AppSecret" name="row[AppSecret]" value="" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password" class="control-label">{:__('Password')}:</label>
+                        <div class="right">
+                            <input type="password" class="form-control" id="password" placeholder="请输入密码" name="row[password]" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="control-label">确认{:__('Password')}:</label>
+                        <div class="right">
+                            <input type="password" class="form-control" id="agpassword" placeholder="请再次输入密码" name="row[agpassword]" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="textpsword" class="control-label">明文密码:</label>
+                        <div class="right">
+                            <input type="text" class="form-control" id="textpsword" placeholder="请输入密码" name="row[password]" disabled value="" />
+                        </div>
+                        <div class="form-group lala">
+                            <label for="plat_push" class="control-label">是否开启第三方推送：</label>
+                                    <button type="button" id="plat_push" name="row[plat_push]"  class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                        开启
+                                      </button>
+                            <div>
+
+                                <div class="box" id="plat">
+                                    <div class="panel-heading">
+                                        *开启第三方推送必填参数
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="form-group">
+                                            <label for="Homekey" class="control-label">AESkey:</label>
+                                            <div class="right">
+                                                <input type="text" class="form-control" id="AESkey" name="row[AESkey]" value="" />
+                                            </div>
+                                        </div>
+    
+                                        <div class="form-group">
+                                            <label for="Homekey" class="control-label">第三方推送url:</label>
+                                            <div class="right">
+                                                <input type="text" class="form-control" id="plat_push_path" name="row[plat_push_path]" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Homekey" class="control-label">Signkey:</label>
+                                            <div class="right">
+                                                <input type="text" class="form-control" id="plat_appkey" placeholder="签名算法的key" name="row[plat_appkey]" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Homekey" class="control-label">签名参数:</label>
+                                            <div class="right">
+                                                <input type="text" class="form-control" id="plat_content" name="row[plat_content]" placeholder="签名参数以“:”区分键名和值，多个参数用“,”(数字逗号)区分开"
+                                                    value="" />
+                                                <span style="color:slategrey">例：appid:xxxxx,apikey:xxxxx</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+
+                            <div class="form-group">
+                                <label for="detail">备注:</label>
+                                <textarea name="row[remark]" class="form-control textarea" id="remark" maxlength="200" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="form-group center">
+                                <span type="submit" class="btn btn-success">激活</span>
+                                <button type="reset" class="btn btn-default">{:__('Reset')}</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </form>
+</div>

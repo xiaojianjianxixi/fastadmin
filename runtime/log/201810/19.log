@@ -1,0 +1,2705 @@
+---------------------------------------------------------------
+[ 2018-10-19T11:31:40+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/wipecache?_=1539919897498
+[ info ] localhost/fastadmin/public/admin/ajax/wipecache?_=1539919897498 [运行时间：0.025465s][吞吐率：39.27req/s] [内存消耗：3,227.84kb] [文件加载：69]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'wipecache',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1539919897498',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000110s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->wipecache[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T11:31:41+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix
+[ info ] localhost/fastadmin/public/admin/fileix [运行时间：0.018287s][吞吐率：54.68req/s] [内存消耗：2,384.11kb] [文件加载：57]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T11:31:41+08:00 ] ::1 ::1 GET /fastadmin/public/admin/index/index
+[ info ] localhost/fastadmin/public/admin/index/index [运行时间：0.039975s][吞吐率：25.02req/s] [内存消耗：4,712.46kb] [文件加载：81]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000101s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000236s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `ismenu` = 1 ORDER BY `weigh`  desc [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[ 2018-10-19T11:31:41+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.017267s][吞吐率：57.91req/s] [内存消耗：3,107.46kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000098s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T11:31:41+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix?addtabs=1
+[ info ] localhost/fastadmin/public/admin/fileix?addtabs=1 [运行时间：0.042927s][吞吐率：23.30req/s] [内存消耗：4,400.23kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000127s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Fileix->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Fileix.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/fileix/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000185s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `wa_auth_rule` WHERE  `name` = '/admin/fileix/index' ) LIMIT 1 [ RunTime:0.000792s ]
+---------------------------------------------------------------
+[ 2018-10-19T11:31:41+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=fileix&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=fileix&v=1.0.1 [运行时间：0.017254s][吞吐率：57.96req/s] [内存消耗：3,100.82kb] [文件加载：64]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'fileix',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000099s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T11:31:41+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix/parms
+[ info ] localhost/fastadmin/public/admin/fileix/parms [运行时间：0.024484s][吞吐率：40.84req/s] [内存消耗：4,073.94kb] [文件加载：71]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => 'parms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000095s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Fileix->parms[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Fileix.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000208s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2018-10-19T11:31:41+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix/lst
+[ info ] localhost/fastadmin/public/admin/fileix/lst [运行时间：0.026205s][吞吐率：38.16req/s] [内存消耗：4,256.30kb] [文件加载：74]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000096s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Fileix->lst[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Fileix.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000298s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2018-10-19T13:43:59+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix
+[ info ] localhost/fastadmin/public/admin/fileix [运行时间：0.014486s][吞吐率：69.03req/s] [内存消耗：2,384.11kb] [文件加载：57]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000104s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T13:43:59+08:00 ] ::1 ::1 GET /fastadmin/public/admin/index/index
+[ info ] localhost/fastadmin/public/admin/index/index [运行时间：0.031583s][吞吐率：31.66req/s] [内存消耗：4,497.11kb] [文件加载：79]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000111s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2018-10-19T13:43:59+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.017711s][吞吐率：56.46req/s] [内存消耗：3,107.46kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000101s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T13:43:59+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix?addtabs=1
+[ info ] localhost/fastadmin/public/admin/fileix?addtabs=1 [运行时间：0.036183s][吞吐率：27.64req/s] [内存消耗：4,204.92kb] [文件加载：74]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000141s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Fileix->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Fileix.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/fileix/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `wa_auth_rule` WHERE  `name` = '/admin/fileix/index' ) LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2018-10-19T13:43:59+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=fileix&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=fileix&v=1.0.1 [运行时间：0.017496s][吞吐率：57.16req/s] [内存消耗：3,100.82kb] [文件加载：64]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'fileix',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000098s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T13:43:59+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix/parms
+[ info ] localhost/fastadmin/public/admin/fileix/parms [运行时间：0.024722s][吞吐率：40.45req/s] [内存消耗：4,073.94kb] [文件加载：71]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => 'parms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000099s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Fileix->parms[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Fileix.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000317s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2018-10-19T13:43:59+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix/lst
+[ info ] localhost/fastadmin/public/admin/fileix/lst [运行时间：0.026405s][吞吐率：37.87req/s] [内存消耗：4,256.30kb] [文件加载：74]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000135s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Fileix->lst[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Fileix.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000255s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2018-10-19T13:56:53+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix
+[ info ] localhost/fastadmin/public/admin/fileix [运行时间：0.016545s][吞吐率：60.44req/s] [内存消耗：2,384.11kb] [文件加载：57]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000142s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T13:56:53+08:00 ] ::1 ::1 GET /fastadmin/public/admin/index/index
+[ info ] localhost/fastadmin/public/admin/index/index [运行时间：0.032483s][吞吐率：30.79req/s] [内存消耗：4,497.11kb] [文件加载：79]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000319s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000262s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-10-19T13:56:53+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.017381s][吞吐率：57.53req/s] [内存消耗：3,107.46kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000103s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T13:56:53+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix?addtabs=1
+[ info ] localhost/fastadmin/public/admin/fileix?addtabs=1 [运行时间：0.032163s][吞吐率：31.09req/s] [内存消耗：4,204.92kb] [文件加载：74]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000224s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Fileix->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Fileix.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/fileix/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000257s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `wa_auth_rule` WHERE  `name` = '/admin/fileix/index' ) LIMIT 1 [ RunTime:0.000237s ]
+---------------------------------------------------------------
+[ 2018-10-19T13:56:54+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=fileix&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=fileix&v=1.0.1 [运行时间：0.017200s][吞吐率：58.14req/s] [内存消耗：3,100.82kb] [文件加载：64]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'fileix',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000103s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T13:56:54+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix/parms
+[ info ] localhost/fastadmin/public/admin/fileix/parms [运行时间：0.023748s][吞吐率：42.11req/s] [内存消耗：4,073.94kb] [文件加载：71]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => 'parms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000099s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Fileix->parms[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Fileix.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000271s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2018-10-19T13:56:54+08:00 ] ::1 ::1 GET /fastadmin/public/admin/fileix/lst
+[ info ] localhost/fastadmin/public/admin/fileix/lst [运行时间：0.026320s][吞吐率：37.99req/s] [内存消耗：4,256.30kb] [文件加载：74]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'referer' => 'http://localhost/fastadmin/public/admin/fileix?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000102s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Fileix->lst[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Fileix.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000309s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:35:57+08:00 ] ::1 ::1 GET /fastadmin/public/
+[ info ] localhost/fastadmin/public/ [运行时间：0.031066s][吞吐率：32.19req/s] [内存消耗：3,770.89kb] [文件加载：69]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000139s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /opt/lampp/htdocs/fastadmin/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:35:57+08:00 ] ::1 ::1 GET /fastadmin/public/admin/index/login.html
+[ info ] localhost/fastadmin/public/admin/index/login.html [运行时间：0.022748s][吞吐率：43.96req/s] [内存消耗：3,250.79kb] [文件加载：69]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000123s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'code',
+  4 => 'msg',
+  5 => 'data',
+  6 => 'url',
+  7 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:35:59+08:00 ] ::1 ::1 GET /fastadmin/public/admin/index/index
+[ info ] localhost/fastadmin/public/admin/index/index [运行时间：0.033221s][吞吐率：30.10req/s] [内存消耗：4,496.83kb] [文件加载：79]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000099s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000254s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:35:59+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.017501s][吞吐率：57.14req/s] [内存消耗：3,107.46kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000103s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:36:02+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule?addtabs=1
+[ info ] localhost/fastadmin/public/admin/auth/rule?addtabs=1 [运行时间：0.059483s][吞吐率：16.81req/s] [内存消耗：4,922.63kb] [文件加载：78]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000144s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/auth/rule/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'ruledata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000254s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `wa_auth_rule` WHERE  `name` = '/admin/auth/rule/index' ) LIMIT 1 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:36:02+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1 [运行时间：0.017127s][吞吐率：58.39req/s] [内存消耗：3,104.02kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000093s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:36:02+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1539930962851
+[ info ] localhost/fastadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1539930962851 [运行时间：0.053920s][吞吐率：18.55req/s] [内存消耗：4,951.71kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1539930962851',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000149s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Rule.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000320s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.001125s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:36:08+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/admin?addtabs=1
+[ info ] localhost/fastadmin/public/admin/auth/admin?addtabs=1 [运行时间：0.036690s][吞吐率：27.26req/s] [内存消耗：4,389.61kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000135s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /opt/lampp/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/auth/admin/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'groupdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `wa_auth_rule` WHERE  `name` = '/admin/auth/admin/index' ) LIMIT 1 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:36:08+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.admin&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.admin&v=1.0.1 [运行时间：0.018305s][吞吐率：54.63req/s] [内存消耗：3,103.38kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/admin?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.admin',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000105s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:36:08+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&_=1539930968204
+[ info ] localhost/fastadmin/public/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&_=1539930968204 [运行时间：0.030627s][吞吐率：32.65req/s] [内存消耗：4,219.13kb] [文件加载：74]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/admin?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  '_' => '1539930968204',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000133s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /opt/lampp/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_admin` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wa_admin` ORDER BY `id`  desc LIMIT 1 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_admin` ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000108s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:36:10+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/group?addtabs=1
+[ info ] localhost/fastadmin/public/admin/auth/group?addtabs=1 [运行时间：0.036141s][吞吐率：27.67req/s] [内存消耗：4,396.14kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.group',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/group',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000304s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/group.php
+[ info ] [ RUN ] app\admin\controller\auth\Group->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Group.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/auth/group/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'groupdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `wa_auth_rule` WHERE  `name` = '/admin/auth/group/index' ) LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:36:10+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.group&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.group&v=1.0.1 [运行时间：0.017482s][吞吐率：57.20req/s] [内存消耗：3,103.47kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/group?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.group',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000098s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/group.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:36:10+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/group/index?sort=id&order=desc&_=1539930970493
+[ info ] localhost/fastadmin/public/admin/auth/group/index?sort=id&order=desc&_=1539930970493 [运行时间：0.031663s][吞吐率：31.58req/s] [内存消耗：4,212.63kb] [文件加载：74]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/group?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  '_' => '1539930970493',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000166s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/group.php
+[ info ] [ RUN ] app\admin\controller\auth\Group->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Group.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_group` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_group` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_group` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_group` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:36:25+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule/edit/ids/10791?dialog=1
+[ info ] localhost/fastadmin/public/admin/auth/rule/edit/ids/10791?dialog=1 [运行时间：0.048893s][吞吐率：20.45req/s] [内存消耗：5,086.64kb] [文件加载：79]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '10791',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000107s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->edit[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/auth/rule/edit.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'ruledata',
+  4 => 'row',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000225s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `id` = 10791 LIMIT 1 [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:36:25+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1 [运行时间：0.023841s][吞吐率：41.94req/s] [内存消耗：3,104.01kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule/edit/ids/10791?dialog=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000104s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:49:48+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule
+[ info ] localhost/fastadmin/public/admin/auth/rule [运行时间：0.016025s][吞吐率：62.40req/s] [内存消耗：2,381.19kb] [文件加载：57]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000114s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:49:48+08:00 ] ::1 ::1 GET /fastadmin/public/admin/index/index
+[ info ] localhost/fastadmin/public/admin/index/index [运行时间：0.034035s][吞吐率：29.38req/s] [内存消耗：4,497.11kb] [文件加载：79]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000130s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000242s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000848s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:49:48+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.017193s][吞吐率：58.16req/s] [内存消耗：3,107.46kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000145s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:49:48+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule?addtabs=1
+[ info ] localhost/fastadmin/public/admin/auth/rule?addtabs=1 [运行时间：0.059688s][吞吐率：16.75req/s] [内存消耗：4,725.70kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000116s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/auth/rule/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'ruledata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000160s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `wa_auth_rule` WHERE  `name` = '/admin/auth/rule/index' ) LIMIT 1 [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:49:49+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1 [运行时间：0.021854s][吞吐率：45.76req/s] [内存消耗：3,104.02kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000236s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:49:49+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1539931788978
+[ info ] localhost/fastadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1539931788978 [运行时间：0.052707s][吞吐率：18.97req/s] [内存消耗：4,951.71kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1539931788978',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000212s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Rule.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.001201s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:50:31+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule
+[ info ] localhost/fastadmin/public/admin/auth/rule [运行时间：0.016137s][吞吐率：61.97req/s] [内存消耗：2,381.19kb] [文件加载：57]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000233s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:50:31+08:00 ] ::1 ::1 GET /fastadmin/public/admin/index/index
+[ info ] localhost/fastadmin/public/admin/index/index [运行时间：0.035117s][吞吐率：28.48req/s] [内存消耗：4,497.11kb] [文件加载：79]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000203s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000330s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:50:31+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.018832s][吞吐率：53.10req/s] [内存消耗：3,107.46kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000099s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:50:31+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule?addtabs=1
+[ info ] localhost/fastadmin/public/admin/auth/rule?addtabs=1 [运行时间：0.062484s][吞吐率：16.00req/s] [内存消耗：4,725.70kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000301s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/auth/rule/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'ruledata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001045s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `wa_auth_rule` WHERE  `name` = '/admin/auth/rule/index' ) LIMIT 1 [ RunTime:0.001199s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:50:31+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1 [运行时间：0.025532s][吞吐率：39.17req/s] [内存消耗：3,104.02kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000137s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:50:31+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1539931831384
+[ info ] localhost/fastadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1539931831384 [运行时间：0.058871s][吞吐率：16.99req/s] [内存消耗：4,951.71kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1539931831384',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000132s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Rule.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000199s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.000824s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:50:32+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule
+[ info ] localhost/fastadmin/public/admin/auth/rule [运行时间：0.017737s][吞吐率：56.38req/s] [内存消耗：2,381.19kb] [文件加载：57]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000304s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:50:32+08:00 ] ::1 ::1 GET /fastadmin/public/admin/index/index
+[ info ] localhost/fastadmin/public/admin/index/index [运行时间：0.034571s][吞吐率：28.93req/s] [内存消耗：4,497.11kb] [文件加载：79]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000110s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000364s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:50:32+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.020559s][吞吐率：48.64req/s] [内存消耗：3,107.46kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000153s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:50:32+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule?addtabs=1
+[ info ] localhost/fastadmin/public/admin/auth/rule?addtabs=1 [运行时间：0.064532s][吞吐率：15.50req/s] [内存消耗：4,725.70kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000463s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/auth/rule/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'ruledata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.001409s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `wa_auth_rule` WHERE  `name` = '/admin/auth/rule/index' ) LIMIT 1 [ RunTime:0.000597s ]
+---------------------------------------------------------------
+[ 2018-10-19T14:50:32+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1 [运行时间：0.025223s][吞吐率：39.65req/s] [内存消耗：3,104.02kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000110s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T14:50:33+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1539931832919
+[ info ] localhost/fastadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1539931832919 [运行时间：0.061719s][吞吐率：16.20req/s] [内存消耗：4,951.71kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1539931832919',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000120s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Rule.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000236s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.001365s ]
+---------------------------------------------------------------
+[ 2018-10-19T15:04:15+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule
+[ info ] localhost/fastadmin/public/admin/auth/rule [运行时间：0.015608s][吞吐率：64.07req/s] [内存消耗：2,381.19kb] [文件加载：57]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000110s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T15:04:15+08:00 ] ::1 ::1 GET /fastadmin/public/admin/index/index
+[ info ] localhost/fastadmin/public/admin/index/index [运行时间：0.031837s][吞吐率：31.41req/s] [内存消耗：4,497.11kb] [文件加载：79]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000108s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000267s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2018-10-19T15:04:15+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.017770s][吞吐率：56.27req/s] [内存消耗：3,107.46kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000106s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T15:04:15+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule?addtabs=1
+[ info ] localhost/fastadmin/public/admin/auth/rule?addtabs=1 [运行时间：0.050611s][吞吐率：19.76req/s] [内存消耗：4,725.70kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000118s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/fastadmin/public/../application/admin/view/auth/rule/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'ruledata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000242s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `wa_auth_rule` WHERE  `name` = '/admin/auth/rule/index' ) LIMIT 1 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2018-10-19T15:04:15+08:00 ] ::1 ::1 GET /fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1
+[ info ] localhost/fastadmin/public/admin/ajax/lang?callback=define&controllername=auth.rule&v=1.0.1 [运行时间：0.021046s][吞吐率：47.51req/s] [内存消耗：3,104.02kb] [文件加载：65]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000101s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-19T15:04:15+08:00 ] ::1 ::1 GET /fastadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1539932655644
+[ info ] localhost/fastadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1539932655644 [运行时间：0.055009s][吞吐率：18.18req/s] [内存消耗：4,951.71kb] [文件加载：76]
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost/fastadmin/public/admin/auth/rule?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1523327455; Hm_lvt_9bb651f2bb5622d49b0299560d6559cd=1524567897; PHPSESSID=r2a5hg27nlcbapa8pc657epca5; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1539328751; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539748042',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1539932655644',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000143s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/fastadmin/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /opt/lampp/htdocs/fastadmin/application/admin/controller/auth/Rule.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000238s ] mysql:dbname=wechatAPI;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_group_access` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `wa_auth_group_access` `AuthGroupAccess` LEFT JOIN `wa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wa_auth_rule` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `wa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `wa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.000492s ]

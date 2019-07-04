@@ -1,0 +1,70 @@
+<form id="add-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-apk_path" class="control-label col-xs-12 col-sm-2">{:__('Apk_path')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-apk_path" required="" class="form-control" name="row[apk_path]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-time" class="control-label col-xs-12 col-sm-2">{:__('Time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-version" class="control-label col-xs-12 col-sm-2">{:__('Version')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-version" required="" class="form-control" name="row[version]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-attachments" class="control-label col-xs-12 col-sm-2">{:__('Attachments')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-attachments" required="" class="form-control" name="row[attachments]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-platform" class="control-label col-xs-12 col-sm-2">{:__('Platform')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-platform" required="" class="form-control" name="row[platform]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-mandatory" class="control-label col-xs-12 col-sm-2">{:__('Mandatory')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-mandatory" class="form-control" name="row[mandatory]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-client_type" class="control-label col-xs-12 col-sm-2">{:__('Client_type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-client_type" class="form-control" name="row[client_type]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-plus" class="control-label col-xs-12 col-sm-2">{:__('Plus')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-plus" class="form-control" name="row[plus]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-filemd5" class="control-label col-xs-12 col-sm-2">{:__('Filemd5')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-filemd5" required="" class="form-control" name="row[filemd5]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-branchid" class="control-label col-xs-12 col-sm-2">{:__('Branchid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-branchid" required="" class="form-control" name="row[branchid]" type="number">
+        </div>
+    </div>
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

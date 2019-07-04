@@ -1,0 +1,88 @@
+<form id="edit-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-sid" class="control-label col-xs-12 col-sm-2">{:__('Sid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sid" required="" class="form-control" name="row[sid]" type="number" value="{$row.sid}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-recog_id" class="control-label col-xs-12 col-sm-2">{:__('Recog_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-recog_id" required="" class="form-control typeahead" name="row[recog_id]" type="number" value="{$row.recog_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-recog_time" class="control-label col-xs-12 col-sm-2">{:__('Recog_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-recog_time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[recog_time]" type="text" value="{$row.recog_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-imgname" class="control-label col-xs-12 col-sm-2">{:__('Imgname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-imgname" required="" class="form-control" name="row[imgname]" type="text" value="{$row.imgname}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-entryid" class="control-label col-xs-12 col-sm-2">{:__('Entryid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-entryid" required="" class="form-control" name="row[entryid]" type="number" value="{$row.entryid}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-firstone" class="control-label col-xs-12 col-sm-2">{:__('Firstone')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-firstone" required="" class="form-control" name="row[firstone]" type="text" value="{$row.firstone}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-quality" class="control-label col-xs-12 col-sm-2">{:__('Quality')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-quality" required="" class="form-control" name="row[quality]" type="number" value="{$row.quality}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-img_w" class="control-label col-xs-12 col-sm-2">{:__('Img_w')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-img_w" required="" class="form-control" name="row[img_w]" type="number" value="{$row.img_w}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-img_h" class="control-label col-xs-12 col-sm-2">{:__('Img_h')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-img_h" required="" class="form-control" name="row[img_h]" type="number" value="{$row.img_h}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-license" class="control-label col-xs-12 col-sm-2">{:__('License')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-license" required="" class="form-control" name="row[license]" type="text" value="{$row.license}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-fst_val" class="control-label col-xs-12 col-sm-2">{:__('Fst_val')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-fst_val" required="" class="form-control" name="row[fst_val]" type="number" value="{$row.fst_val}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-imgpath" class="control-label col-xs-12 col-sm-2">{:__('Imgpath')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-imgpath" required="" class="form-control" name="row[imgpath]" type="text" value="{$row.imgpath}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-time" class="control-label col-xs-12 col-sm-2">{:__('Time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[time]" type="text" value="{$row.time|datetime}">
+        </div>
+    </div>
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

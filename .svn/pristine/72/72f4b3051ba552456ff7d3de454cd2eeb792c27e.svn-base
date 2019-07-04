@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {include file="common/meta" /}
+
+        <style type="text/css">
+            body {
+                color:#999;
+                background: url('../../../../assets/img/login-bg.jpg');
+                background-size: cover;
+            }
+            .login-panel{margin-top:150px;}
+            .login-screen {
+                max-width:400px;
+                padding:0;
+                margin:100px auto 0 auto;
+
+            }
+            .login-screen .well {
+                border-radius: 3px;
+                -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                background: rgba(255,255,255, 0.2);
+            }
+            .login-screen .copyright {
+                text-align: center;
+            }
+            @media(max-width:767px) {
+                .login-screen {
+                    padding:0 20px;
+                }
+            }
+            .profile-img-card {
+                width: 100px;
+                height: 100px;
+                margin: 10px auto;
+                display: block;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+            }
+            .profile-name-card {
+                text-align: center;
+            }
+
+            #login-form {
+                margin-top:20px;
+            }
+            #login-form .input-group {
+                margin-bottom:15px;
+            }
+            .show {
+                display: block;
+            }
+            .hide {
+                display: none;
+            }
+            #notice {
+                color: red;
+            }
+            .geetest_holder {
+                width: 100% !important;
+            }
+        </style>
+    </head>
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script src="/assets/js/gt.js"></script>
+    <script>
+            var handlerEmbed = function (captchaObj) {
+
+
+                $("#embed-submit").click(function (e) {
+                    var validate = captchaObj.getValidate();
+                    if (!validate) {
+                        $("#notice")[0].className = "show";
+                        setTimeout(function () {
+                            $("#notice")[0].className = "hide";
+                        }, 2000);
+                        e.preventDefault();
+                    }
+                });
+                // 将验证码加到id为captcha的元素里，同时会有三个input的值：geetest_challenge, geetest_validate, geetest_seccode
+                captchaObj.appendTo("#embed-captcha");
+                captchaObj.onReady(function () {
+                    $("#wait")[0].className = "hide";
+                    $('#think-val').remove()
+                });
+                // 更多接口参考：http://www.geetest.com/install/sections/idx-client-sdk.html
+            };
+
+            $.ajax({
+                // 获取id，challenge，success（是否启用failback）
+                //index/Speedcode/StartCaptchaServlet
+                // url: "/speedcode/web/StartCaptchaServlet.php?t=" + (new Date()).getTime(), 
+
+                url:"{:url('index/Speedcode/StartCaptchaServlet')}?t="+ (new Date()).getTime(),// 加随机数防止缓存
+                type: "get",
+                dataType: "json",
+                success: function (data) {
+                    console.log(data);
+                    if(!data || data.status==0) {
+                        return
+                    }
+                    // 使用initGeetest接口
+                    // 参数1：配置参数
+                    // 参数2：回调，回调的第一个参数验证码对象，之后可以使用它做appendTo之类的事件
+                    initGeetest({
+                        gt: data.gt,
+                        challenge: data.challenge,
+                        new_captcha: data.new_captcha,
+                        product: "embed", // 产品形式，包括：float，embed，popup。注意只对PC版验证码有效
+                        offline: !data.success // 表示用户后台检测极验服务器是否宕机，一般不需要关注
+                        // 更多配置参数请参见：http://www.geetest.com/install/sections/idx-client-sdk.html#config
+                    }, handlerEmbed);
+                }
+            });
+
+        function  getPath(){
+
+            var pathName = document.location.pathname;
+            var index = pathName.substr(1).indexOf("/");
+            var result = pathName.substr(0,index+1);
+            return result;
+
+        }
+        </script>
+    <body>
+        <div class="container">
+            <div class="login-wrapper">
+                <div class="login-screen">
+                    <div class="well">
+                        <div class="login-form">
+                            <img id="profile-img" class="profile-img-card" src="__CDN__/assets/img/avatar.png" />
+                            <p id="profile-name" class="profile-name-card"></p>
+                            <form action="" method="post" id="login-form">
+                                {:token()}
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
+                                    <input type="text" class="form-control" id="pd-form-username" placeholder="" name="username" autocomplete="off" required="required" value="admin" />
+                                </div>
+
+                                <div class="input-group">
+                                    
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></div>
+                                    <input type="password" class="form-control" id="pd-form-password" placeholder="" name="password" autocomplete="off" required="required" value="123456" />
+                                </div>
+
+                                <div class="input-group" id="think-val">
+                                        <div class="input-group-addon"><span class="glyphicon glyphicon-option-horizontal" ></span></div>
+                                        
+                                        <input type="text" name="captcha" class="form-control" placeholder="验证码" data-rule="验证码:required;length(4)" />
+
+                                        <span class="input-group-addon" style="padding:0;border:none;cursor:pointer;">
+                                             <img src="{:captcha_src()}" width="100" height="30" onclick="this.src=this.src+'?'" />
+                                        </span>
+                                        <input type="hidden" name="speedcode"  value="true">
+                                </div>
+
+                                <div class="form-group">
+                                        <div id="embed-captcha"></div>
+                                        <p id="wait" class="show">正在加载验证码......</p>
+                                        <p id="notice" class="hide">请先完成验证</p>
+                                        <input type="hidden" name="speedcode"  value="false">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="inline" for="keeplogin">
+                                        <input type="checkbox" name="keeplogin" id="keeplogin" value="1" />
+                                        {:__('Keep login')}
+                                    </label>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <button type="submit" id="embed-submit" class="btn btn-success btn-lg btn-block">{:__('Sign in')}</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <p class="copyright"><a href="http://www.techpami.com">Powered By PAMI</a></p>
+                </div>
+            </div>
+        </div>
+        {include file="common/script" /}
+    </body>
+</html>

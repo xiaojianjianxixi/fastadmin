@@ -1,0 +1,82 @@
+<form id="add-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-license" class="control-label col-xs-12 col-sm-2">{:__('License')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-license" required="" class="form-control" name="row[license]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-user_account" class="control-label col-xs-12 col-sm-2">{:__('User_account')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-user_account" required="" class="form-control" name="row[user_account]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-passwd" class="control-label col-xs-12 col-sm-2">{:__('Passwd')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-passwd" required="" class="form-control" name="row[passwd]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-muid" class="control-label col-xs-12 col-sm-2">{:__('Muid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-muid" required="" class="form-control" name="row[muid]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-ip" class="control-label col-xs-12 col-sm-2">{:__('Ip')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ip" required="" class="form-control" name="row[ip]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-time" class="control-label col-xs-12 col-sm-2">{:__('Time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-salt" class="control-label col-xs-12 col-sm-2">{:__('Salt')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-salt" required="" class="form-control" name="row[salt]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-apikey" class="control-label col-xs-12 col-sm-2">{:__('Apikey')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-apikey" required="" class="form-control" name="row[apikey]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-apisecret" class="control-label col-xs-12 col-sm-2">{:__('Apisecret')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-apisecret" required="" class="form-control" name="row[apisecret]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-webpath" class="control-label col-xs-12 col-sm-2">{:__('Webpath')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-webpath" class="form-control" name="row[webpath]" type="text" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-dbname" class="control-label col-xs-12 col-sm-2">{:__('Dbname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-dbname" class="form-control" name="row[dbname]" type="text" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-mom_sid" class="control-label col-xs-12 col-sm-2">{:__('Mom_sid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-mom_sid" class="form-control" name="row[mom_sid]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,42 @@
+@import url("../css/bootstrap.min.css");
+@import url("../css/fastadmin.min.css");
+@import url("../css/skins/skin-green.css");
+@import url("../css/iconfont.css");
+@import url("../libs/font-awesome/css/font-awesome.min.css");
+@import url("../libs/toastr/toastr.min.css");
+@import url("../libs/layer/build/skin/default/layer.css");
+@import url("../css/backend-func.css");
+@media only screen and (min-width: 481px) {
+  .row-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+  .row-flex.row:after,
+  .row-flex.row:before {
+    display: flex;
+  }
+}
+table.table-template {
+  overflow: hidden;
+}
+
+.pami-single-form .form-group>label{
+    float:left;
+    min-width:10%;
+    line-height:30px;
+    margin:0 5px 0 0;
+}
+.pami-single-form .form-group .right{
+    display:block;
+    overflow:hidden;
+}
+.pami-single-form .center{
+    text-align:center;
+}
+.text-right{
+  text-align:right;
+}
